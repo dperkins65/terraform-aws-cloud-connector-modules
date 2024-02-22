@@ -12,6 +12,7 @@ ENHANCEMENTS:
 * feat: user selection prompt for Zscaler cloud. Used for template validation and DNS lookup FQDN-to-IP mapping for security group rule creation
 * refactor: add prompt to enable/disable Zscaler Remote Support security group egress rule
 * ZSEC bash script prompts for Auto Scaling Group zonal configuration
+* refactor: update workload/bastion module from AL2 to AL2023 AMI
 
 BUG FIXES:
 * fix: add variable cc_route_table_enabled for conditional creation of aws_route_table.cc_rt and aws_route_table_association.cc_rt_asssociation. This is to avoid conflicts for brownfield VPC requirements where a custom subnet route table already exists to just tell terraform not to implicitly create a new one
