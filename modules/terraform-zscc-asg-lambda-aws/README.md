@@ -2,7 +2,9 @@
 
 This module creates the Lambda Function, IAM Policies, and Cloudwatch Events/Targets required for management and health monitoring of Cloud Connectors deployed in an Autoscaling Group.
 
-
+| Version | SHA256 Hash | Release Date | Repo Version |
+| ----------- | --------| ------------ | ------------ |       
+| 1.0.5 | 4E15BA95A55DCD0EF193341484FD787E7F2FB8914BDBAE86F0055CBB40F2FD0A | 10/19/2023 | v1.0.0 |
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
